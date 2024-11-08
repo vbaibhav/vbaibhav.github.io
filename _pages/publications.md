@@ -12,90 +12,81 @@ nav_order: 2
 <!-- Bibsearch Feature -->
 
 
-
-<!-- Ensure Font Awesome and/or Academicons are included in your project -->
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" rel="stylesheet">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" rel="stylesheet">
 
-<!-- Fancy Links Section -->
 <p>Checkout my publications on:</p>
 
-<p style="display: flex; gap: 15px;">
+<p class="publication-links">
     <!-- ADS Link -->
     <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link">
         <span class="icon">
-            <i class="ai ai-ads" style="font-size: 20px;"></i>
+            <i class="ai ai-ads"></i>
         </span>
         <span class="text">ADS</span>
     </a>
     <!-- ORCID Link -->
     <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link">
         <span class="icon">
-            <i class="ai ai-orcid" style="font-size: 20px;"></i>
+            <i class="ai ai-orcid"></i>
         </span>
         <span class="text">ORCID</span>
     </a>
     <!-- Inspire-HEP Link -->
     <a href="https://inspirehep.net/literature?q=f%20a%20baibhav" target="_blank" class="icon-link">
         <span class="icon">
-            <i class="ai ai-inspire" style="font-size: 20px;"></i>
+            <i class="ai ai-inspire"></i>
         </span>
         <span class="text">Inspire-HEP</span>
     </a>
 </p>
 
-
-
-<!-- Inline CSS for Fancy Link Styling -->
+<!-- CSS Styles for Light and Dark Theme -->
 <style>
-
-
-
-    /* Base Styles for Icon Links */
+    /* Light Theme Colors (Default) */
     .icon-link {
         display: flex;
         align-items: center;
         gap: 8px;
         padding: 8px 15px;
-        background-color: var(--bg-color, #f0f0f0); /* Default light background */
-        color: var(--text-color, #333); /* Default text color */
+        background-color: #f0f0f0; /* Light background */
+        color: #333; /* Dark text */
         text-decoration: none;
         border-radius: 8px;
         transition: background-color 0.3s ease, color 0.3s ease;
         font-weight: bold;
     }
 
-    /* Hover Effect */
-    .icon-link:hover {
-        background-color: var(--hover-bg-color, #007bff);
-        color: var(--hover-text-color, #fff);
+    /* Dark Theme Colors (When Dark Mode is Active) */
+    @media (prefers-color-scheme: dark) {
+        .icon-link {
+            background-color: #333; /* Dark background */
+            color: #f0f0f0; /* Light text */
+        }
+
+        .icon-link:hover {
+            background-color: #555; /* Darker hover background */
+            color: #fff; /* White text on hover */
+        }
     }
 
-    /* Dark Mode Styles */
-    @media (prefers-color-scheme: dark) {
-        :root {
-            --bg-color: #333;          /* Dark background */
-            --text-color: #f0f0f0;     /* Light text */
-            --hover-bg-color: #555;    /* Hover background for dark mode */
-            --hover-text-color: #ffdd57; /* Accent hover color */
-        }
+    /* Hover Effect for Links */
+    .icon-link:hover {
+        background-color: #007bff; /* Light mode hover background */
+        color: #fff; /* White text on hover */
     }
 
     /* Icon Spacing and Sizing */
     .icon {
         display: inline-block;
+        font-size: 20px;
     }
-    
+
     .text {
         font-size: 16px;
     }
 
-
-    
 </style>
-
-
-
 
 
 
