@@ -4,22 +4,15 @@
     "label": "NASA Einstein Fellow",
     "image": "",
     "email": "vb2630@columbia.edu",
-    "phone": "(912) 123-4567",
+    "phone": "",
     "url": "https://vbaibhav.github.io/"
     "location": {
-      "address": "2712 Broadway St",
-      "postalCode": "CA 94115",
-      "city": "San Francisco",
-      "countryCode": "US",
-      "region": "California"
-    },
-    "profiles": [
-      {
-        "network": "Twitter",
-        "username": "AlbertEinstein",
-        "url": "https://twitter.com/AlbertEinstein"
-      }
-    ]
+      "address": "",
+      "postalCode": "",
+      "city": "",
+      "countryCode": "",
+      "region": ""
+    }
   },
   "work": [
     {
