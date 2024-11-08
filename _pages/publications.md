@@ -18,7 +18,7 @@ nav_order: 2
 <link href="https://cdnjs.cloudflare.com/ajax/libs/academicons/1.8.6/css/academicons.min.css" rel="stylesheet">
 
 <!-- Fancy Links Section -->
-<p>Checkout my publications on:</p>
+<p>Checkout my work on:</p>
 
 <div style="display: flex; align-items: center; gap: 20px; font-size: 1.1em;">
     <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link" style="display: flex; align-items: center; text-decoration: none; color: #007BFF;">
