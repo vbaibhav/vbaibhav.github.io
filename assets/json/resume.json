@@ -1,4 +1,5 @@
-{  "interests": [
+{
+  "interests": [
     {
       "name": "Gravitational-wave astrophysics",
       "keywords": ["Binary stellar evolution", "Black-hole binary dynamics", "Black-hole perturbation theory", "Waveform modeling"]
@@ -27,7 +28,7 @@
       "studyType": "PhD",
       "area": "Physics",
       "startDate": "2018",
-      "endDate": "2021",
+      "endDate": "2021"
     },
     {
       "institution": "Indian Institute of Technology",
@@ -36,17 +37,17 @@
       "area": "Engineering Physics",
       "startDate": "2012",
       "endDate": "2016"
-      }
+    }
   ],
   "awards": [
     {
       "title": "NASA Hubble Fellowship Program - Einstein Fellowship",
-      "date": "2024",
+      "date": "2024-2027",
       "summary": ""
     },
     {
       "title": "CIERA Postdoctoral Fellowship",
-      "date": "2021",
+      "date": "2021-2024",
       "summary": ""
     },
     {
