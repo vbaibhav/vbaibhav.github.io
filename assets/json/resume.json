@@ -26,16 +26,14 @@
       "position": "Einstein Fellow (NASA Hubble Fellowship Program)",
       "location": "New York, US",
       "startDate": "2024",
-      "endDate": "2027",
-      "highlights": ["Advisor: Prof. Yuri Levin"]
+      "endDate": "2027"
     },
     {
       "name": "CIERA, Northwestern University",
       "position": "CIERA Postdoctoral Fellow",
       "location": "Evanston, US",
       "startDate": "2021",
-      "endDate": "2024",
-      "highlights": ["Advisor: Prof. Vicky Kalogera"]
+      "endDate": "2024"
     }
   ],
   "education": [
@@ -46,7 +44,6 @@
       "area": "Physics",
       "startDate": "2018",
       "endDate": "2021",
-      "highlights": ["Advisor: Prof. Emanuele Berti", "Thesis: Black hole beasts and where to find them"]
     },
     {
       "institution": "Indian Institute of Technology",
@@ -54,9 +51,8 @@
       "studyType": "Bachelor of Technology",
       "area": "Engineering Physics",
       "startDate": "2012",
-      "endDate": "2016",
-      "highlights": ["Advisor: Prof. Debaprasad Maity", "Thesis: Boson stars in higher-derivative gravity and generalized U(1) invariant scalar-field theory"]
-    }
+      "endDate": "2016"
+      }
   ],
   "awards": [
     {
