@@ -24,7 +24,7 @@ nav_order: 2
 <!-- Links to ADS, ORCID, and Inspire-HEP with Icons -->
 <p>
     <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link">
-        <img src="https://ui.adsabs.harvard.edu/favicon.ico" alt="ADS" style="width: 16px; vertical-align: middle; margin-right: 5px;"> ADS
+        <img src="https://ui.adsabs.harvard.edu/help/img/bbb_assets/ads_partial_logo_dark_background.svg" alt="ADS" style="width: 16px; vertical-align: middle; margin-right: 5px;"> ADS
     </a> |
     <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link">
        <i class="fa-brands fa-orcid"></i> ORCID
