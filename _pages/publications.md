@@ -2,7 +2,7 @@
 layout: page
 permalink: /publications/
 title: publications
-description: link to ADS and Inspire
+description: 
 nav: true
 nav_order: 2
 ---
