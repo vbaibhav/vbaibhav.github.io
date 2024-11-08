@@ -21,13 +21,13 @@ nav_order: 2
 <!-- Links to ADS, ORCID, and Inspire-HEP with Icons -->
 <p>
     <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link">
-        <i class="fas fa-satellite-dish"></i> ADS
+        <img src="https://ui.adsabs.harvard.edu/favicon.ico" alt="ADS" style="width: 16px; vertical-align: middle; margin-right: 5px;"> ADS
     </a> |
     <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link">
-        <i class="fas fa-id-badge"></i> ORCID
+        <img src="https://orcid.org/sites/default/files/favicon.ico" alt="ORCID" style="width: 16px; vertical-align: middle; margin-right: 5px;"> ORCID
     </a> |
     <a href="https://inspirehep.net/literature?q=f%20a%20baibhav" target="_blank" class="icon-link">
-        <i class="fas fa-book-open"></i> Inspire-HEP
+        <img src="https://inspirehep.net/favicon.ico" alt="Inspire-HEP" style="width: 16px; vertical-align: middle; margin-right: 5px;"> Inspire-HEP
     </a>
 </p>
 
