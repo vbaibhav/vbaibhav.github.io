@@ -28,7 +28,6 @@ nav_order: 2
         </span>
         <span class="text">ADS</span>
     </a>
-
     <!-- ORCID Link -->
     <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link">
         <span class="icon">
@@ -36,7 +35,6 @@ nav_order: 2
         </span>
         <span class="text">ORCID</span>
     </a>
-
     <!-- Inspire-HEP Link -->
     <a href="https://inspirehep.net/literature?q=f%20a%20baibhav" target="_blank" class="icon-link">
         <span class="icon">
@@ -45,6 +43,8 @@ nav_order: 2
         <span class="text">Inspire-HEP</span>
     </a>
 </p>
+
+
 
 <!-- Inline CSS for Fancy Link Styling -->
 <style>
