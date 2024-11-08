@@ -48,14 +48,17 @@ nav_order: 2
 
 <!-- Inline CSS for Fancy Link Styling -->
 <style>
-    /* Styling for Icon Links */
+
+
+
+    /* Base Styles for Icon Links */
     .icon-link {
         display: flex;
         align-items: center;
         gap: 8px;
         padding: 8px 15px;
-        background-color: #f0f0f0;
-        color: #333;
+        background-color: var(--bg-color, #f0f0f0); /* Default light background */
+        color: var(--text-color, #333); /* Default text color */
         text-decoration: none;
         border-radius: 8px;
         transition: background-color 0.3s ease, color 0.3s ease;
@@ -64,8 +67,18 @@ nav_order: 2
 
     /* Hover Effect */
     .icon-link:hover {
-        background-color: #007bff;
-        color: #fff;
+        background-color: var(--hover-bg-color, #007bff);
+        color: var(--hover-text-color, #fff);
+    }
+
+    /* Dark Mode Styles */
+    @media (prefers-color-scheme: dark) {
+        :root {
+            --bg-color: #333;          /* Dark background */
+            --text-color: #f0f0f0;     /* Light text */
+            --hover-bg-color: #555;    /* Hover background for dark mode */
+            --hover-text-color: #ffdd57; /* Accent hover color */
+        }
     }
 
     /* Icon Spacing and Sizing */
@@ -76,7 +89,21 @@ nav_order: 2
     .text {
         font-size: 16px;
     }
+
+
+    
 </style>
+
+
+
+
+
+
+
+
+
+
+
 
 
 
