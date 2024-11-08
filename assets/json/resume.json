@@ -5,7 +5,7 @@
     "image": "",
     "email": "vb2630@columbia.edu",
     "phone": "",
-    "url": "https://vbaibhav.github.io/"
+    "url": "https://vbaibhav.github.io/",
     "location": {
       "address": "",
       "postalCode": "",
@@ -52,7 +52,7 @@
       "highlights": ["Advisor: Prof. Debaprasad Maity", "Thesis: Boson stars in higher-derivative gravity and generalized U(1) invariant scalar-field theory"]
     }
   ],
-  "selected awards": [
+  "awards": [
     {
       "title": "NASA Hubble Fellowship Program - Einstein Fellowship",
       "date": "2024-2027",
