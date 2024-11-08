@@ -21,18 +21,16 @@ nav_order: 2
 <p>Checkout my publications on:</p>
 
 <p style="display: flex; gap: 15px;">
-    <!-- ADS Link -->
     <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link">
         <span class="icon">
-            <i class="ai ai-ads" style="font-size: 20px; color: #F2A900;"></i>
+            <i class="ai ai-ads" style="font-size: 20px;"></i>
         </span>
         <span class="text">ADS</span>
     </a>
 
-    <!-- ORCID Link -->
     <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link">
         <span class="icon">
-            <i class="ai ai-orcid" style="font-size: 20px; color: #A6CE39;"></i>
+            <i class="ai ai-orcid" style="font-size: 20px;"></i>
         </span>
         <span class="text">ORCID</span>
     </a>
@@ -40,7 +38,7 @@ nav_order: 2
     <!-- Inspire-HEP Link -->
     <a href="https://inspirehep.net/literature?q=f%20a%20baibhav" target="_blank" class="icon-link">
         <span class="icon">
-            <i class="ai ai-inspire" style="font-size: 20px; color: #1E90FF;"></i>
+            <i class="ai ai-inspire" style="font-size: 20px;"></i>
         </span>
         <span class="text">Inspire-HEP</span>
     </a>
