@@ -20,64 +20,22 @@ nav_order: 2
 <!-- Fancy Links Section -->
 <p>Checkout my publications on:</p>
 
-<p style="display: flex; gap: 15px;">
-    <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link">
-        <span class="icon">
-            <i class="ai ai-ads" style="font-size: 20px;"></i>
-        </span>
-        <span class="text">ADS</span>
+<div style="display: flex; align-items: center; gap: 20px; font-size: 1.1em;">
+    <a href="https://ui.adsabs.harvard.edu/public-libraries/GSi9KwB6TamcOuJGuVaDpw" target="_blank" class="icon-link" style="display: flex; align-items: center; text-decoration: none; color: #007BFF;">
+         <img src="https://ui.adsabs.harvard.edu/favicon.ico" alt="ADS" style="width: 20px; height: 20px; margin-right: 8px;">
+         <span>ADS</span>
     </a>
 
-    <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link">
-        <span class="icon">
-            <i class="ai ai-orcid" style="font-size: 20px;"></i>
-        </span>
-        <span class="text">ORCID</span>
+    <a href="https://orcid.org/0000-0002-2536-7752" target="_blank" class="icon-link" style="display: flex; align-items: center; text-decoration: none; color: #A6CE39;">
+        <img src="https://orcid.org/sites/default/files/favicon.ico" alt="ORCID" style="width: 20px; height: 20px; margin-right: 8px;">
+        <span>ORCID</span>
     </a>
 
-    <!-- Inspire-HEP Link -->
-    <a href="https://inspirehep.net/literature?q=f%20a%20baibhav" target="_blank" class="icon-link">
-        <span class="icon">
-            <i class="ai ai-inspire" style="font-size: 20px;"></i>
-        </span>
-        <span class="text">Inspire-HEP</span>
+    <a href="https://inspirehep.net/literature?q=f%20a%20baibhav" target="_blank" class="icon-link" style="display: flex; align-items: center; text-decoration: none; color: #E36133;">
+        <img src="https://inspirehep.net/favicon.ico" alt="Inspire-HEP" style="width: 20px; height: 20px; margin-right: 8px;">
+        <span>Inspire-HEP</span>
     </a>
-</p>
-
-<!-- Inline CSS for Fancy Link Styling -->
-<style>
-    /* Styling for Icon Links */
-    .icon-link {
-        display: flex;
-        align-items: center;
-        gap: 8px;
-        padding: 8px 15px;
-        background-color: #f0f0f0;
-        color: #333;
-        text-decoration: none;
-        border-radius: 8px;
-        transition: background-color 0.3s ease, color 0.3s ease;
-        font-weight: bold;
-    }
-
-    /* Hover Effect */
-    .icon-link:hover {
-        background-color: #007bff;
-        color: #fff;
-    }
-
-    /* Icon Spacing and Sizing */
-    .icon {
-        display: inline-block;
-    }
-    
-    .text {
-        font-size: 16px;
-    }
-</style>
-
-
-
+</div>
 
 
 {% include bib_search.liquid %}
