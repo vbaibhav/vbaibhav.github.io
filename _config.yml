@@ -330,7 +330,7 @@ scholar:
   details_link: Details
 
   query: "@*"
-  group_by: year
+  group_by: arxivyear # group by arXiv submission year (entries are ordered by arXiv date in papers.bib)
   group_order: descending
 
 # Display different badges withs stats for your publications
@@ -348,6 +348,7 @@ filtered_bibtex_keywords:
     abstract,
     additional_info,
     altmetric,
+    arxivyear,
     annotation,
     arxiv,
     award,
